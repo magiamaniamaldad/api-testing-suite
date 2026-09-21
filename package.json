@@ -1,0 +1,11 @@
+{
+  "name": "api-testing-suite",
+  "version": "1.0.0",
+  "description": "Automated REST API testing suite using Postman and Newman.",
+  "scripts": {
+    "test": "newman run postman/API-Testing-Suite.postman_collection.json"
+  },
+  "devDependencies": {
+    "newman": "^6.2.1"
+  }
+}
